@@ -1,9 +1,5 @@
 @import "mixins";
 
-html {
-    scroll-behavior: smooth;
-}
-
 /*$body-color: #fafafa;*/
 
 $primary: #f8485e;
@@ -17,9 +13,15 @@ $body-bg: #212a33;
 $dark: #003040;
 $darker: #002430;
 
-
 .bg-darker {
     background-color: $darker;
 }
 
-$font-family-base: "Poppins", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
+.complement {
+    background-color: $primary;
+    color: #fff;
+
+    p {
+        color: #E5E5E5;
+    }
+}
