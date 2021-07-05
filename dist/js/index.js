@@ -1,3 +1,5 @@
+console.log("JS");
+
 /*
 window.sr = ScrollReveal(
     {
