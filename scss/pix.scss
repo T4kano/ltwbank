@@ -1,3 +1,31 @@
 @import "settings";
 
+.header-skewd {
+    &::before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        top: -50%;
+        left: 0;
+        height: 100%;
+        transform: skewY(10deg);
+        z-index: -1;
+        background: $secondary;
+    }
+}
+
+.footer-skewd {
+    &::before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        top: -50%;
+        left: 0;
+        height: 100%;
+        transform: skewY(10deg);
+        z-index: -1;
+        background: $primary;
+    }
+}
+
 @import "footer";

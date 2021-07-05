@@ -16,6 +16,32 @@ $body-bg: #212a33;
   color: #E5E5E5;
 }
 
+.header-skewd::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  top: -50%;
+  left: 0;
+  height: 100%;
+  -webkit-transform: skewY(10deg);
+          transform: skewY(10deg);
+  z-index: -1;
+  background: #005470;
+}
+
+.footer-skewd::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  top: -50%;
+  left: 0;
+  height: 100%;
+  -webkit-transform: skewY(10deg);
+          transform: skewY(10deg);
+  z-index: -1;
+  background: #f8485e;
+}
+
 #footer {
   position: relative;
   z-index: 1;
