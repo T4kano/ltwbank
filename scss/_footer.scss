@@ -1,0 +1,36 @@
+#footer {
+    position: relative;
+    z-index: 1;
+
+    p, b, li, a {
+        color: #d9d9d9;
+    }
+
+    h1, h2 {
+        color: #fff;
+    }
+
+    a {
+        text-decoration: none;
+        display: block;
+        @include ease;
+        &:hover {
+            color: $primary;
+        }
+    }
+
+    svg {
+        cursor: pointer;
+        @include ease;
+        fill: #fff;
+        width: 25px;
+        &:hover {
+            fill: $primary;
+        }
+    }
+
+    span {
+        color: #9B9B9B;
+        font-size: 9pt;
+    }
+}

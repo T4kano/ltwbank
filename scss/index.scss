@@ -1,0 +1,57 @@
+@import "settings";
+
+.benefits > * {
+    color: #fff;
+    fill: #fff;
+}
+
+#overlay {
+    position: relative;
+    max-height: 180px;
+    top: -30px;
+    z-index: 0;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    #overlay {
+        max-height: 350px;
+        top: -30px;
+    }
+}
+
+@media (min-width: 992px) {
+    #overlay {
+        max-height: 350px;
+        top: -100px;
+    }
+}
+
+@media (min-width: 1200px) {
+    #overlay {
+        max-height: 400px;
+        top: -150px;
+    }
+}
+
+@media (min-width: 1400px) {
+    #overlay {
+        max-height: 500px;
+        top: -100px;
+    }
+}
+
+@media (min-width: 1900px) {
+    #overlay {
+        max-height: 550px;
+        top: -200px;
+    }
+}
+
+@import "footer";
+
+/*
+@import "about";
+@import "business";
+@import "values";
+@import "partners";
+*/
