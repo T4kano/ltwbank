@@ -27,8 +27,8 @@ $body-bg: #212a33;
 .navbar .navbar-toggler:focus {
   text-decoration: none;
   outline: 0;
-  -webkit-box-shadow: 0 0 0 4px rgba(248, 72, 94, 0.1);
-          box-shadow: 0 0 0 4px rgba(248, 72, 94, 0.1);
+  -webkit-box-shadow: 0 0 0 4px rgba(0, 84, 112, 0.1);
+          box-shadow: 0 0 0 4px rgba(0, 84, 112, 0.1);
 }
 
 .navbar a.nav-link {
@@ -89,6 +89,25 @@ $body-bg: #212a33;
 .feature-icon:hover span {
   color: #f8485e;
   z-index: 1;
+}
+
+input.form-control, textarea.form-control {
+  border-left: 3px solid #f8485e;
+}
+
+button.btn-primary {
+  color: #fff;
+}
+
+button.btn-primary:hover, button.btn-primary:focus {
+  background: #fff;
+  color: #f8485e;
+  -webkit-box-shadow: 0 0 0 4px rgba(248, 72, 94, 0.2);
+          box-shadow: 0 0 0 4px rgba(248, 72, 94, 0.2);
+}
+
+p.lead {
+  color: #666666;
 }
 
 a {
