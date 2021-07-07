@@ -6,27 +6,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="Eduardo Takano" />
 
+    <!-- GOOGLE POPPINS -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;900&display=swap" />
 
+    <!-- FAVICON -->
     <link rel="shortcut icon" href="./img/favicon.ico" />
 
-    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+    <!-- jQUERY -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 
+    <!-- BOOTSTRAP-->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    
+    <!-- INDEX JS -->
+    <script src="./js/index.js"></script>
+    
+    <!-- STYLES -->
     <link rel="stylesheet" href="./css/custom.css" />
-    <link rel="stylesheet" href="./css/pix.css" />
+    <link rel="stylesheet" href="./css/about.css" />
+
+    <!-- TITLE -->
     <title>LTW Bank | Sobre</title>
   </head>
 
   <body>
 
-    <!--/////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+    <div class="loading">
+      <img src="./img/loading.gif" class="img-fluid" width="100px" loading="lazy" />
+    </div>
+
+    <!--////////////////////////////////////////// NAVBAR START //////////////////////////////////////////-->
 
     <nav id="header" class="navbar fixed-top navbar-expand-lg navbar-light">
       <div class="container-fluid px-5">
         <a class="navbar-brand" href="index.html">
-          <img src="./img/brand_dark.png" class="img-fluid" width="100px">
+          <img src="./img/brand_dark.webp" class="img-fluid" width="100px" loading="lazy" />
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -52,13 +68,13 @@
       </div>
     </nav>
 
-    <!--/////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+    <!--////////////////////////////////////////// NAVBAR END //////////////////////////////////////////-->
 
     <div class="container-fluid header-skewd">
       <div class="container col-xxl-8 px-4 py-5">
         <div class="row row-cols-1">
           <div class="col-lg-6">
-            <img src="./img/light.png" class="img-fluid">
+            <img src="./img/light.webp" class="img-fluid" loading="lazy" />
           </div>
         </div>
       </div>
@@ -73,7 +89,7 @@
           <p class="lead">
             LTW Bank é um banco digital que protege o seu dinheiro e te permite sonhar, pois através dos vários conteúdos de educação financeira, ele lhe ajudará a fazer o seu dinheiro trabalhar para você.
           </p>
-          <img src="./img/smart_mock6.png" class="img-fluid d-none d-lg-block">
+          <img src="./img/smart_mock6.webp" class="img-fluid d-none d-lg-block" loading="lazy" />
         </div>
         <div class="col-lg-6">
           <h1 class="display-5 fw-bold lh-1 mb-3">O que é a LTW Bank?</h1>
@@ -88,16 +104,14 @@
           </p>
         </div>
         <div class="col-lg-6 d-lg-none">
-          <img src="./img/smart_mock6.png" class="img-fluid">
+          <img src="./img/smart_mock6.webp" class="img-fluid" loading="lazy" />
         </div>
       </div>
     </div>
 
-    <!--/////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
-
     <div class="container-fluid footer-skewd"></div>
 
-    <!--/////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+    <!--//////////////////////////////////////// FOOTER BEGIN ////////////////////////////////////////-->
 
     <section id="footer">
       <div class="container-fluid py-5 bg-dark">
@@ -110,17 +124,15 @@
             </div>
             <div class="col-lg-6 d-flex justify-content-lg-end align-items-center">
               <a href="https://play.google.com/store/apps/details?id=com.ltw.ltwbank" target="_blank" class="me-3 me-md-5">
-                <img src="./img/google-play.svg" width="250px" class="img-fluid" />
+                <img src="./img/google-play.svg" width="250px" class="img-fluid" loading="lazy" />
               </a>
               <a href="https://apps.apple.com/br/app/ltw-bank/id1566195361" target="_blank">
-                <img src="./img/app-store.svg" width="250px" class="img-fluid" />
+                <img src="./img/app-store.svg" width="250px" class="img-fluid" loading="lazy" />
               </a>
             </div>
           </div>
         </div>
       </div>
-
-      <!--/////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
 
       <div class="container-fluid py-5 bg-darker">
         <div class="container py5">
@@ -144,12 +156,10 @@
             </div>
           </div>
 
-          <!--/////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
-
           <div class="row border-top pt-4">
             <div class="col-6 col-md-2">
               <a href="index.html">
-                <img src="./img/brand_light.png" class="img-fluid">
+                <img src="./img/brand_light.webp" class="img-fluid" loading="lazy" />
               </a>
             </div>
             
@@ -167,12 +177,9 @@
           </div>
         </div>
       </div>
-
-      <!--/////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
-
     </section>
 
-    <script src="./js/bootstrap.bundle.min.js"></script>
-    <script src="./js/index.js"></script>
+    <!--//////////////////////////////////////// FOOTER END ////////////////////////////////////////-->
+
   </body>
 </html>

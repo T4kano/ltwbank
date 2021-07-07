@@ -6,27 +6,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="Eduardo Takano" />
 
+    <!-- GOOGLE POPPINS -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;900&display=swap" />
 
+    <!-- FAVICON -->
     <link rel="shortcut icon" href="./img/favicon.ico" />
 
-    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+    <!-- jQUERY -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 
+    <!-- BOOTSTRAP-->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    
+    <!-- INDEX JS -->
+    <script src="./js/index.js"></script>
+    
+    <!-- STYLES -->
     <link rel="stylesheet" href="./css/custom.css" />
     <link rel="stylesheet" href="./css/index.css" />
+
+    <!-- TITLE -->
     <title>LTW Bank</title>
   </head>
 
   <body>
 
-    <!--/////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+    <div class="loading">
+      <img src="./img/loading.gif" class="img-fluid" width="100px" loading="lazy" />
+    </div>
+
+    <!--////////////////////////////////////////// NAVBAR START //////////////////////////////////////////-->
 
     <nav id="header" class="navbar fixed-top navbar-expand-lg navbar-light">
       <div class="container-fluid px-5">
         <a class="navbar-brand" href="#">
-          <img src="./img/brand_dark.png" class="img-fluid" width="100px">
+          <img src="./img/brand_dark.webp" class="img-fluid" width="100px" loading="lazy" />
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -52,11 +68,11 @@
       </div>
     </nav>
 
-    <!--/////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+    <!--////////////////////////////////////////// NAVBAR END //////////////////////////////////////////-->
 
     <div class="container col-xxl-8 px-4 py-5">
       <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-        <div class="col-lg-6 m-md-0">
+        <div class="col-lg-6 m-xl-0">
           <h1 class="display-5 fw-bold lh-1 mb-3">
             Reinventando sua relação com os serviços bancários.
           </h1>
@@ -66,7 +82,7 @@
           </p>
         </div>
         <div class="col-lg-6">
-          <img src="./img/smart_mock1.png" class="d-block mx-lg-auto img-fluid" />
+          <img src="./img/smart_mock1.webp" class="d-block mx-lg-auto img-fluid" loading="lazy" />
         </div>
       </div>
     </div>
@@ -90,26 +106,23 @@
           </p>
         </div>
         <div class="col-lg-6">
-          <img src="./img/smart_mock2.png" class="d-block mx-lg-auto img-fluid" loading="lazy"
-          />
+          <img src="./img/smart_mock2.webp" class="d-block mx-lg-auto img-fluid" loading="lazy" />
         </div>
       </div>
     </div>
 
-    <!--/////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+    <!--//////////////////////////////////////// BENEFITS BEGIN ////////////////////////////////////////-->
 
     <div class="container-fluid benefits">
       <div class="row align-items-center bg-primary">
         <div class="col-lg-6 p-0">
-          <img src="./img/benefits.jpg" class="d-block mx-lg-auto img-fluid" loading="lazy" />
+          <img src="./img/benefits.webp" class="d-block mx-lg-auto img-fluid" loading="lazy" />
         </div>
-
-        <!--/////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
 
         <div class="col-lg-6">
           <div class="container">
             <div class="row justify-content-center">
-              <div class="col-md-8 d-flex align-items-center py-5">
+              <div class="col-md-8 d-flex align-items-center py-5" data-sr-origin="left">
                 <svg class="bi flex-shrink-0 me-3" width="2.5em" viewBox="0 0 402.93 403">
                   <path d="M176.71,348.76l-11,0c-3.65,0-7.31,0-11,0l-23.45,0-14.31,0c-17.28,0-33.11-6.39-44.56-17.85S54.7,303.57,54.68,286.29c0-19.25,0-38.82,0-57.74.06-36.29.12-73.82-.18-110.74-.27-32,22.43-59,52.79-62.67a5,5,0,0,0,1.82-.64h294a7.08,7.08,0,0,0,2,.68c21.5,3.46,37.11,15,46.4,34.41a74.58,74.58,0,0,1,4.32,13c.53,2,1.07,4,1.67,6v102c-2,5.16-4.63,8.1-8.49,9.5a13.15,13.15,0,0,1-4.52.81,13,13,0,0,1-12.85-12.74c-.18-5.46-.14-11.06-.1-16.47,0-2.33,0-4.66,0-7V160.63q0-21.27,0-42.54c0-22.87-14.78-37.65-37.62-37.65H118.06c-22.74,0-37.45,14.69-37.45,37.42q0,83.84,0,167.66c0,22.25,15,37.22,37.22,37.25h73.05c6.61,0,11.52,3.11,13.46,8.5A12.74,12.74,0,0,1,202.91,343,13.28,13.28,0,0,1,192,348.66C187.52,348.73,182.65,348.76,176.71,348.76Z" transform="translate(-54.54 -54.5)" />
                   <path d="M365.81,348.91c-8.82,0-17.79-.06-26.46-.13-6.33,0-12.65-.09-19-.11a13.61,13.61,0,0,1-9.74-3.88,12.72,12.72,0,0,1-3.63-9.11c0-7.43,5.73-12.84,13.53-12.87q13.77,0,27.55,0h46.66c17.5,0,30.72-9.68,35.37-25.8a44.73,44.73,0,0,0,1.37-8.82c.61-7.39,4.89-12.3,11.45-13.16a12.68,12.68,0,0,1,1.73-.12c5.55,0,10,3.58,12.35,9.82a5.14,5.14,0,0,0,.45.91v9c-.62,2.06-1.18,4.15-1.72,6.18A70,70,0,0,1,451.28,314c-11.07,22.22-29,33.84-53.21,34.52C388.47,348.78,378.21,348.91,365.81,348.91Z" transform="translate(-54.54 -54.5)" />
@@ -118,39 +131,29 @@
                   <path d="M145.05,200.67a15.94,15.94,0,1,1-16.18-15.8A16,16,0,0,1,145.05,200.67Z" transform="translate(-54.54 -54.5)" />
                   <path d="M399,200.87a15.95,15.95,0,1,1-16-16A16,16,0,0,1,399,200.87Z" transform="translate(-54.54 -54.5)" />
                 </svg>
-                <div>
-                  Saques em todos os caixas do Brasil sem cobrança de tarifa.
-                </div>
+                <div>Saques em todos os caixas do Brasil sem cobrança de tarifa.</div>
               </div>
             </div>
 
-            <!--/////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
-
             <div class="row justify-content-center">
-              <div class="col-md-8 d-flex align-items-start py-5">
+              <div class="col-md-8 d-flex align-items-center py-5" data-sr-origin="left">
                 <svg class="bi flex-shrink-0 me-3" width="2.5em" viewBox="0 0 383.25 360.95">
                   <path d="M64.37,87.54c2-5.54,5.14-10,11.27-11.38A14.43,14.43,0,0,1,82.26,76c16.91,4.62,34.12,3.73,51.31,3,25.66-1.07,51.31-2.57,77-3.28,17.93-.5,32.91,6.79,45.33,20,.75-.68,1.49-1.28,2.16-2,12-12,26.38-18.51,43.28-18,25.68.72,51.33,2.2,77,3.27,17.19.72,34.37,1.49,51.31-3,8.68-2.28,17.22,4.44,17.94,13.44.07.87.05,1.75.05,2.62q0,122.75,0,245.48c0,8.06-3.83,13.74-10.58,15.81a14.94,14.94,0,0,1-19.31-13.24c-.09-1.37,0-2.74,0-4.12q0-111.31,0-222.65v-3.89c-8.33,0-16.28.29-24.2,0-23.92-1-47.83-2.35-71.75-3.44-7.1-.32-14.21-.47-21.32-.37A29.74,29.74,0,0,0,271,134.94c-.18,16.84,0,33.68,0,50.52q0,106.1,0,212.18c0,9.9-6.86,16.83-16,16.23-7.51-.49-12.61-5.73-14.17-14.93h-4.28q-55.18,0-110.39,0c-32,0-55.8-20.2-61.19-51.81a6,6,0,0,0-.58-1.33ZM241,309.11V259.55q0-61.37,0-122.74c0-18.62-13-31.43-31.69-31.28-6.36,0-12.72.11-19.08.4-24.79,1.12-49.57,2.41-74.36,3.47-7.06.3-14.13,0-21.57,0V113q0,82.14,0,164.29c0,19.2,12.66,31.85,31.88,31.86H241ZM94.32,332.4V336c0,20.78,12.19,33,32.93,33H241V349.16c0-7.72-2.36-10.1-10-10.11q-52.35,0-104.69,0c-2.86,0-5.82.18-8.56-.46C110,336.75,102.31,334.54,94.32,332.4Z" transform="translate(-64.37 -75.52)" />
                   <path d="M300.16,334.55c0-19.07-.14-38.15.13-57.22a23.66,23.66,0,0,1,2.81-10.59c9.52-17.36,19.44-34.5,29.11-51.78,3.18-5.69,7.62-9.24,14.3-9.08,6.5.15,10.74,3.78,13.69,9.42,9.07,17.32,18.38,34.52,27.33,51.89a22,22,0,0,1,2.36,9.61q.23,57,.08,114.08c0,23.62-16.85,42.43-40.34,45.29-21.86,2.67-42.88-12.4-48.25-34.79a47.61,47.61,0,0,1-1.16-10.73C300.1,372,300.16,353.25,300.16,334.55Zm29.95,22.95h29.94v-4.34c0-20.31-.33-40.63.14-60.94.21-9,.38-12.53-1.31-15.64S348.62,257.52,345.69,252c-4.85,8.56-9.47,16.49-13.85,24.56a14,14,0,0,0-1.66,6.29c-.14,14.58-.07,29.16-.07,43.74Zm.14,30.37c-.74,7.51,1.43,13.32,7.92,16.79,5.59,3,11.17,2.37,16.13-1.52s6.43-9.13,5.48-15.27Z" transform="translate(-64.37 -75.52)" />
                 </svg>
-                <div>
-                  Disponibilizamos aulas sobre educação financeira gratuitamente.
-                </div>
+                <div>Disponibilizamos aulas sobre educação financeira gratuitamente.</div>
               </div>
             </div>
 
-            <!--/////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
-
             <div class="row justify-content-center">
-              <div class="col-md-8 d-flex align-items-start py-5">
+              <div class="col-md-8 d-flex align-items-center py-5" data-sr-origin="left">
                 <svg class="bi flex-shrink-0 me-3" width="2.5em" viewBox="0 0 384 384" >
                   <path d="M278.83,64c6.65,1.52,13.5,2.42,19.9,4.65,30.91,10.78,50.53,32.26,59.09,63.81,2.14,7.89-.8,14.82-7.32,18.18a14.54,14.54,0,0,1-18-3.46,18.88,18.88,0,0,1-3.47-6.9c-7.65-28.51-30.76-46.33-60.34-46.34q-50.7,0-101.41,0c-29.51,0-53.67,19.74-59.47,48.55a61.46,61.46,0,0,0-1.09,11.89q-.09,101.22,0,202.45c0,34,26.48,60.39,60.58,60.45s68.1,0,102.16,0c29.07,0,52.57-18.47,59.58-46.69,2-8,8-12.76,15.52-12.42a14.81,14.81,0,0,1,14.06,13.14,20.28,20.28,0,0,1-.64,7c-9.46,39.89-45.27,68.61-86.25,68.86q-53,.33-105.9,0a89.56,89.56,0,0,1-89-89.29q-.32-102.34,0-204.69a89.59,89.59,0,0,1,79.06-88.54,16.18,16.18,0,0,0,2.47-.67Z" transform="translate(-76.63 -64)" />
                   <path d="M345.81,332.72c-11.72,0-23.44,0-35.16,0-29.55-.14-52.66-23.21-52.77-52.7q-.09-24.49,0-49a52.34,52.34,0,0,1,52.59-52.48q35.73-.12,71.45,0A52.34,52.34,0,0,1,434.51,231q.12,24.69,0,49.38a52.38,52.38,0,0,1-52.41,52.3C370,332.79,357.91,332.72,345.81,332.72Zm.31-29.94c11.61,0,23.21,0,34.81,0,14,0,23.6-9.54,23.64-23.42q.07-23.76,0-47.53c0-13.71-9.63-23.32-23.31-23.35q-35-.07-70,0c-13.9,0-23.42,9.62-23.45,23.59q0,23.58,0,47.15c0,13.94,9.59,23.51,23.5,23.56C322.92,302.81,334.52,302.78,346.12,302.78Z" transform="translate(-76.63 -64)" />
                   <path d="M201,364.85a18.7,18.7,0,0,1,37.39-.44,18.7,18.7,0,1,1-37.39.44Z" transform="translate(-76.63 -64)" />
                   <path d="M346,263.84c-4,0-8,.12-12,0-8.69-.32-14.85-6.69-14.75-15.11s6.19-14.54,14.74-14.74q12.31-.27,24.65,0a14.93,14.93,0,0,1,0,29.85C354.49,264,350.25,263.84,346,263.84Z" transform="translate(-76.63 -64)" />
                 </svg>
-                <div>
-                  Abra e gerencie sua conta totalmente online, pelo celular.
-                </div>
+                <div>Abra e gerencie sua conta totalmente online, pelo celular.</div>
               </div>
             </div>
           </div>
@@ -158,14 +161,14 @@
       </div>
     </div>
 
-    <!--/////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+    <!--//////////////////////////////////////// BENEFITS END ////////////////////////////////////////-->
 
-    <section id="overlay">
-        <img src="./img/overlay.png" class="img-fluid d-none d-lg-block">
-        <img src="./img/overlay_mobile.png" class="img-fluid d-block d-lg-none">
+    <section id="overlay" data-sr-origin="top">
+        <img src="./img/overlay.webp" class="img-fluid d-none d-lg-block" loading="lazy" />
+        <img src="./img/overlay_mobile.webp" class="img-fluid d-block d-lg-none" loading="lazy" />
     </section>
 
-    <!--/////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+    <!--//////////////////////////////////////// FOOTER BEGIN ////////////////////////////////////////-->
 
     <section id="footer">
       <div class="container-fluid py-5 bg-dark">
@@ -178,17 +181,15 @@
             </div>
             <div class="col-lg-6 d-flex justify-content-lg-end align-items-center">
               <a href="https://play.google.com/store/apps/details?id=com.ltw.ltwbank" target="_blank" class="me-3 me-md-5">
-                <img src="./img/google-play.svg" width="250px" class="img-fluid" />
+                <img src="./img/google-play.svg" width="250px" class="img-fluid" loading="lazy" />
               </a>
               <a href="https://apps.apple.com/br/app/ltw-bank/id1566195361" target="_blank">
-                <img src="./img/app-store.svg" width="250px" class="img-fluid" />
+                <img src="./img/app-store.svg" width="250px" class="img-fluid" loading="lazy" />
               </a>
             </div>
           </div>
         </div>
       </div>
-
-      <!--/////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
 
       <div class="container-fluid py-5 bg-darker">
         <div class="container py5">
@@ -212,12 +213,10 @@
             </div>
           </div>
 
-          <!--/////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
-
           <div class="row border-top pt-4">
             <div class="col-6 col-md-2">
               <a href="#">
-                <img src="./img/brand_light.png" class="img-fluid">
+                <img src="./img/brand_light.webp" class="img-fluid" loading="lazy" />
               </a>
             </div>
             <div class="col-6 col-md-1 d-flex align-items-end justify-content-end order-md-last">
@@ -234,12 +233,9 @@
           </div>
         </div>
       </div>
-      
-      <!--/////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
-
     </section>
 
-    <script src="./js/index.js"></script>
-    <script src="./js/bootstrap.bundle.min.js"></script>
+    <!--//////////////////////////////////////// FOOTER END ////////////////////////////////////////-->
+
   </body>
 </html>

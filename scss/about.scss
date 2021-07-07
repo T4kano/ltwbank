@@ -1,0 +1,56 @@
+@import "settings";
+@import "common";
+
+.header-skewd {
+    @include ease;
+
+    &::before {
+        background: $secondary;
+        transform: skewY(4deg);
+        position: absolute;
+        height: 100%;
+        z-index: -1;
+        width: 100%;
+        content: "";
+        top: -60%;
+        left: 0;
+    }
+
+    img {
+        animation: light 2s ease-in-out;
+        position: relative;
+    }
+}
+
+.footer-skewd {
+    background-color: $primary;
+    position: relative;
+    height: 200px;
+    width: 100%;
+
+    &::before {
+        transform: skewY(4deg);
+        background: $primary;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        top: -100px;
+        content: "";
+        left: 0;
+    }
+}
+
+
+@media (max-width: 575px) {
+    .footer-skewd {
+        height: 120px;
+    }
+}
+
+@keyframes light {
+    0% { top: -100%; }
+    90% { top: 3%; }
+    100% { top: 0; }
+}
+
+@import "footer";

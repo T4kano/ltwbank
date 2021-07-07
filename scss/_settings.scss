@@ -1,27 +1,16 @@
-@import "mixins";
-
-/*$body-color: #fafafa;*/
+@mixin ease {
+    transition: all 0.2s linear;
+}
 
 $primary: #f8485e;
 $secondary: #005470;
-
-/*
-$body-bg: #212a33;
-*/
 
 /*$dark: #2a3642;*/
 $dark: #003040;
 $darker: #002430;
 
+$border-radius: 0;
+
 .bg-darker {
     background-color: $darker;
-}
-
-.complement {
-    background-color: $primary;
-    color: #fff;
-
-    p {
-        color: #E5E5E5;
-    }
 }

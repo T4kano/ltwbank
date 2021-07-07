@@ -9,9 +9,9 @@ $font-family-base: "Poppins", system-ui, -apple-system, "Segoe UI", Roboto, "Hel
     background: #fff;
 
     .navbar-toggler:focus {
+        box-shadow: 0 0 0 4px rgba($color: $secondary, $alpha: 0.1);
         text-decoration: none;
         outline: 0;
-        box-shadow: 0 0 0 4px rgba($color: $secondary, $alpha: 0.1);
     }
 
     a.nav-link {

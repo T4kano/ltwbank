@@ -1,0 +1,139 @@
+/*$dark: #2a3642;*/
+.bg-darker {
+  background-color: #002430;
+}
+
+.loading {
+  background-color: rgba(255, 255, 255, 0.7);
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  overflow: hidden;
+  position: fixed;
+  z-index: 1040;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  left: 0;
+  top: 0;
+}
+
+.header-skewd {
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+.header-skewd::before {
+  background: #005470;
+  -webkit-transform: skewY(4deg);
+          transform: skewY(4deg);
+  position: absolute;
+  height: 100%;
+  z-index: -1;
+  width: 100%;
+  content: "";
+  top: -60%;
+  left: 0;
+}
+
+.header-skewd img {
+  -webkit-animation: light 2s ease-in-out;
+          animation: light 2s ease-in-out;
+  position: relative;
+}
+
+.footer-skewd {
+  background-color: #f8485e;
+  position: relative;
+  height: 200px;
+  width: 100%;
+}
+
+.footer-skewd::before {
+  -webkit-transform: skewY(4deg);
+          transform: skewY(4deg);
+  background: #f8485e;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: -100px;
+  content: "";
+  left: 0;
+}
+
+@media (max-width: 575px) {
+  .footer-skewd {
+    height: 120px;
+  }
+}
+
+@-webkit-keyframes light {
+  0% {
+    top: -100%;
+  }
+  90% {
+    top: 3%;
+  }
+  100% {
+    top: 0;
+  }
+}
+
+@keyframes light {
+  0% {
+    top: -100%;
+  }
+  90% {
+    top: 3%;
+  }
+  100% {
+    top: 0;
+  }
+}
+
+#footer {
+  position: relative;
+  z-index: 1;
+}
+
+#footer p, #footer b, #footer li, #footer a {
+  color: #d9d9d9;
+}
+
+#footer h1, #footer h2 {
+  color: #fff;
+}
+
+#footer a {
+  text-decoration: none;
+  display: block;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+#footer a:hover {
+  color: #f8485e;
+}
+
+#footer svg {
+  cursor: pointer;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+  fill: #fff;
+  width: 25px;
+}
+
+#footer svg:hover {
+  fill: #f8485e;
+}
+
+#footer span {
+  color: #9B9B9B;
+  font-size: 9pt;
+}
+/*# sourceMappingURL=about.css.map */

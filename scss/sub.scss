@@ -1,0 +1,13 @@
+@import "settings";
+@import "common";
+
+.complement {
+    background-color: $primary;
+    color: #fff;
+
+    p {
+        color: #E5E5E5;
+    }
+}
+
+@import "footer";
