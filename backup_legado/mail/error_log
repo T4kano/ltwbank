@@ -1,0 +1,13 @@
+[23-Apr-2021 13:55:37 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '*' in /home/ltwbank/public_html/mail/enviar-trabalhe.php on line 69
+[28-Apr-2021 10:41:24 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '*' in /home/ltwbank/public_html/mail/enviar-trabalhe.php on line 69
+[28-Apr-2021 10:41:51 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '*' in /home/ltwbank/public_html/mail/enviar-trabalhe.php on line 69
+[28-Apr-2021 10:41:55 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '*' in /home/ltwbank/public_html/mail/enviar-trabalhe.php on line 69
+[30-Apr-2021 11:07:58 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '*' in /home/ltwbank/public_html/mail/enviar-trabalhe.php on line 69
+[30-Apr-2021 11:08:11 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '*' in /home/ltwbank/public_html/mail/enviar-trabalhe.php on line 69
+[30-Apr-2021 11:08:29 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '*' in /home/ltwbank/public_html/mail/enviar-trabalhe.php on line 69
+[02-May-2021 10:33:26 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '*' in /home/ltwbank/public_html/mail/enviar-trabalhe.php on line 69
+[02-May-2021 10:33:41 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '*' in /home/ltwbank/public_html/mail/enviar-trabalhe.php on line 69
+[04-May-2021 15:48:13 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '*' in /home/ltwbank/public_html/mail/enviar-trabalhe.php on line 69
+[04-May-2021 15:48:40 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '*' in /home/ltwbank/public_html/mail/enviar-trabalhe.php on line 69
+[04-May-2021 15:49:19 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '*' in /home/ltwbank/public_html/mail/enviar-trabalhe.php on line 69
+[25-May-2021 21:00:41 America/Sao_Paulo] PHP Warning:  fread(): Length parameter must be greater than 0 in /home/ltwbank/public_html/mail/enviar-trabalhe.php on line 130
