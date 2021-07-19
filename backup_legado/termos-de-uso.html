@@ -7,13 +7,74 @@
 	<meta name="description" content="Está chegando o banco 100% digital, abra a sua conta e fique um clique mais perto do sucesso!">
 	<meta name="author" content="Juliana Diani">
 	
-	<?php  include_once('includes/head.php')?>
+	<!-- Favicon -->
+	<link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+	<link rel="manifest" href="favicon/site.webmanifest">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">
+	
+	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/plugins.css">
+	<link rel="stylesheet" type="text/css" href="revolution/css/settings.css">
+	<link rel="stylesheet" type="text/css" href="revolution/css/layers.css">
+	<link rel="stylesheet" type="text/css" href="revolution/css/navigation.css">
+	<link rel="stylesheet" type="text/css" href="type/icons.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/green.css">
+	
+	<!-- Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i" rel="stylesheet">
 
 </head>
 <body>
 
 	<div class="content-wrapper">
-		<?php  include_once('includes/menu.php')?>
+		<nav class="navbar absolute light-wrapper inverse-text alt-hover uppercase">
+			<div class="container">
+				<div class="flex-it">
+					<div class="navbar-header">
+						<div class="navbar-brand">
+							<a href="/"><img src="#" srcset="images/logo-ltw.png 1x, images/logo-ltw.png 2x" class="logo-size" alt="" /></a>
+						</div>
+						<div class="nav-bars-wrapper">
+							<div class="nav-bars-inner">
+								<div class="nav-bars" data-toggle="collapse" data-target=".navbar-collapse"><span></span></div>
+							</div>
+						</div>
+					</div>
+			
+					<div class="navbar-collapse collapse">
+						<ul class="nav navbar-nav">
+							<li><a href="/">Início</a></li>
+							
+							<li><a href="pix">Para você <span class="caret"></span></a>
+								<ul class="dropdown-menu">
+									<li><a href="pix">PIX</a></li>
+									<li><a href="cartoes-ltw-bank">Cartões</a></li>
+									<li><a href="transferencias">Transferências</a></li>
+								<!--<li><a href="#">Conta Digital</a></li>-->
+									<!--<li><a href="#">Outros serviços</a></li>-->
+								</ul>
+							</li>
+							<!--<li><a href="faq">Para a sua empresa</a></li>-->
+							<li><a href="sobre-a-ltw-bank">O LTW Bank<span class="caret"></span></a>
+								<ul class="dropdown-menu">
+									<li><a href="sobre-a-ltw-bank">O LTW Bank</a></li>
+									<li><a href="carreiras">Carreiras</a></li>
+								</ul>
+							</li>
+							<li><a href="faq">Perguntas</a></li>
+							<li><a href="contato" class="btn botao-conta ">CADASTRE-SE</a><!--
+							<li><a href="abrir-conta" class="btn botao-conta hidden-xs">ABRA SUA CONTA</a><!--
+							<a href="abrir-conta-celular" class="btn botao-conta hidden-md">ABRA SUA CONTA</a>--></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</nav>
 		
 		<div class="wrapper pattern-wrapper inverse-text page-title-wrapper mt-70" data-image-src="images/art/pattern5.jpg">
 			<div class="container inner pt-40 pb-40 flex-it">
@@ -153,7 +214,80 @@
 			</div>
 		</div>
 		
-		<?php  include_once('includes/footer.php')?>
+		<footer class="dark-wrapper inverse-text">
+			<div class="container inner pt-60 pb-60">
+				<div class="row">
+					<div class="col-sm-3">
+						<div class="widget">
+							<h5 class="widget-title">LTW Bank</h5>
+							<ul class="list-unstyled">
+								<li><a href="sobre-a-ltw-bank" class="nocolor">Sobre o LTW Bank</a></li>
+								<li><a href="carreiras" class="nocolor">Carreiras</a></li>
+								<li><a href="faq" class="nocolor">Perguntas</a></li>
+								<li><a href="contato" class="nocolor">Contato</a></li>
+							</ul>
+						</div> 
+					</div>
+			  
+					<div class="col-sm-3 mobile-mt-50">
+						<div class="widget">
+							<h5 class="widget-title">Produtos</h5>
+							<ul class="list-unstyled">
+								<li><a href="pix" class="nocolor">PIX</a></li>
+								<li><a href="cartoes-ltw-bank" class="nocolor">Cartões</a></li>
+								<li><a href="transferencias" class="nocolor">Transferências</a></li>
+								<!--<li><a href="#" class="nocolor">Conta Digital</a></li>
+								<li><a href="#" class="nocolor">Outros serviços</a></li>-->
+							</ul>
+						</div>
+					</div>
+			  
+					<div class="col-sm-4 mobile-mt-50">
+						<div class="widget">
+							<h5 class="widget-title">Contato</h5>
+							<ul class="list-unstyled">
+								<li><a href="tel:08000244221" class="nocolor">0800 024 4221</a></li>
+								<li><a href="mailto:contato@ltwbank.com.br" class="nocolor">contato@ltwbank.com.br</a></li>
+								<li><a href="#" class="nocolor">Rua Alameda Terracota, 185 - 12º andar - sala 1227. Complexo Espaço Cerâmica - São Caetano do Sul</a></li>
+							</ul>
+						</div>
+					</div>
+			  
+					<div class="col-sm-2 mobile-mt-50">
+						<div class="widget">
+							<h5 class="widget-title">Baixe o APP</h5>
+							
+							<a href="em-breve" class="nocolor"><img src="images/botao-google-play.png" class="imagem-app suave-up" alt="Google Play"></a>
+							<br>
+							<a href="em-breve" class="nocolor"><img src="images/botao-app-store.png" class="imagem-app mt-botao-app suave-up" alt="App Store"></a>
+							
+						</div>
+					</div>
+				</div>    
+			</div>
+		
+			<div class="container">
+				<hr class="pt-0 mb-0" />
+			</div>
+		
+			<div class="sub-footer">
+				<div class="container inner">
+					<div class="cell text-left">
+						<img src="images/logo-ltw-branco.png" class="logo-footer" alt="" />
+						<p class="texto-footer">© 2021 &nbsp;&nbsp;<b>LTW Bank</b>&nbsp;&nbsp;Todos os Direitos Reservados<!--25.426.210/0020-78--> <br> 
+						<a href="politicas-de-privacidade-LGPD" target="blank" class="nocolor">Políticas de Privacidade</a> |  <a href="termos-de-uso" class="nocolor">Termos de Uso</a></p>
+					</div>
+		
+					<div class="cell text-right">
+						<ul class="social social-bg social-s">
+							<!--<li><a href="#" target="blank"><i class="et-facebook icone-footer"></i></a></li>-->
+							<li><a href="https://www.instagram.com/ltwbank/" target="blank"><i class="et-instagram icone-footer"></i></a></li>
+							<li><a href="https://www.linkedin.com/company/ltwbank/" target="blank"><i class="et-linkedin icone-footer"></i></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</footer>
 
 		<script type="text/javascript" src="js/jquery.min.js"></script> 
 		<script type="text/javascript" src="js/bootstrap.min.js"></script> 
